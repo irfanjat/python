@@ -1,10 +1,15 @@
-#Logical operators in python
+#Logical operators and or not  in python
 
 temp = int(input("What is the temperature is outside:? "))
 
-if temp >= 0 and temp <= 30:
+if not(temp >= 0 and temp <= 30):
     print("The temperature is good today.")
     print("Go outside ")
-elif temp <= 0 or temp >=30:
+elif not (temp <= 0 or temp >=30):
     print("The temperature is bad today ")
     print("Stay inside.!")
+
+#     #not operator
+# if not (temp >= 0 and temp <= 30):
+#      print("The temperature is good today.")
+#      print("Go outside ")
